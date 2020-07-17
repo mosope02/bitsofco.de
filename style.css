@@ -48,13 +48,15 @@ nav {
 .main {
     font-size: 13px;
     display: flex;
-    flex-wrap: wrap;
+    max-width: 70%;
+    margin: auto;
+    justify-content: space-between;
 }
 
 .articles {
-    flex: 60%;
-
+    flex-wrap: wrap;
+    margin: auto;
 }
 .side {
-    flex: 25%;
+    flex-wrap: wrap;
 }
