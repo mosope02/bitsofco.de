@@ -46,14 +46,14 @@ nav {
     ==============================================================================================================*/
 
 .main {
-    font-size: 0.95em;
+    font-size: 0.9em;
     font-weight: 100;
     display: flex;
     max-width: 72%;
     margin: auto;
     justify-content: space-between;
     border: 1px solid black;
-    margin-top: 12vh;
+    margin-top: 9vh;
 }
 
 .articles {
@@ -66,5 +66,13 @@ nav {
     float: right;
     border: 1px solid black;
     padding: 4px;
+}
+.about {
     height: 200px;
+    border: 1px solid black;
+}
+.carbon {
+    text-align: center;
+    height: 200px;
+    border: 1px solid black;
 }
