@@ -55,7 +55,8 @@ nav {
     margin-top: 9vh;
 }
 .main hr {
-    color: rgb(231, 231, 231);
+    color: rgb(252, 250, 250);
+    font-weight: 100;
 }
 
 .articles {
