@@ -140,17 +140,26 @@ nav {
 ====================================================================================*/
 .subscribe {
     border: 1px solid rgb(221, 221, 221);
-    padding: 8px 8px;
+    padding: 2%;
     background-color: white;
+}
+.subscribe p {
+    max-width: 55%;
+}
+form {
+    display: flex;
+    max-width: 80%;
+    justify-content: space-between;
 }
 
 /*==================================================================================
                         FOOTER
 ====================================================================================*/
 footer {
-    border: 1px solid red;
+    border-top: 1.5px solid rgb(221, 221, 221);
     height: 18.3vh;
     text-align: center;
+    padding-top: 6px;
 }
 footer .footer-links a {
     text-decoration: none;
