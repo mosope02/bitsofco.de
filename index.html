@@ -44,16 +44,26 @@
             <p>I’ve recently been doing Udacity’s Blockchain Developer Nanodegree, and the gotcha that has caused me the most wasted hours is the difference between calling a method in my smart contract using the call() vs send() web3.js methods. Using web3.js to call smart contract functions Web3.js... </p>
             <br>
             <br>
-            
+
             <div class="subscribe">
-                <h3>Subscribe to the Newsletter</h3>
-                <p>Receive quality articles written by Ire Aderinokun, frontend developer and user interface designer.</p>
+                <div class="newsletter">
+                    <h3>Subscribe to the Newsletter</h3>
+                    <p>Receive quality articles written by Ire Aderinokun, frontend developer and user interface designer.</p>
+                </div>
                 <form action="#">
-                    <input type="text" name="name" id="name" placeholder="Email Address*">
-                    <input type="text" name="fname" id="fname" placeholder="First Name">
-                    <input type="submit" value="Subscribe">
+                    <div class="email-form">
+                        <input type="email" name="email" id="email" placeholder="Email Address*">
+                    </div>
+                    <div class="fname-form">
+                        <input type="text" name="fname" id="fname" placeholder="First Name">
+                    </div>
+                    <div class="subscribe-button">
+                        <input type="submit" value="Subscribe">
+                    </div>
                 </form>
             </div>
+            <br>
+            <div class="page"><span class="page--span--left">page 1 of 31</span> <a href="" class="page--a--right">Older &#8594</a></div>
 
         </div>
 
@@ -79,5 +89,9 @@
                 <a href="#"><img src="img/youtube.svg" width="21px" style="fill: aqua;" alt=""></a>
             </div>
     </div>
+
+    <footer>
+        <p>All articles written with &#10084 by <a href="#"> Ire Aderinokun</a> </p>
+    </footer>
 </body>
 </html>
