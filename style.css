@@ -74,20 +74,20 @@ nav {
     display: table;
     clear: both;
 }
-.articles p {
+.articles p, .articles a{
     font-size: 16px;
+    color: rgb(53, 52, 52);
 }
 .articles h2 {
     font-size: 23px;
     font-weight: 600;
 }
-.articles a {
-    color: black;
-}
 .articles img {
     padding: 0 0px;
 }
-
+.page--a--right {
+    float: right;
+}
 
 
 
@@ -126,22 +126,6 @@ nav {
 .ire {
     color: black;
 }
-
-.followers {
-    width: fit-content;
-    background-color: white;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 3px;
-    font-size: 0.7em;
-    padding: 3px 3px;
-    border: 1px solid rgb(155, 155, 155);
-    margin: 0;
-}
-.followers:hover {
-    text-decoration: underline;
-}
 .icons {
     text-align: center;
 }
@@ -157,6 +141,7 @@ nav {
 .subscribe {
     border: 1px solid rgb(221, 221, 221);
     padding: 8px 8px;
+    background-color: white;
 }
 
 /*==================================================================================
@@ -164,4 +149,13 @@ nav {
 ====================================================================================*/
 footer {
     border: 1px solid red;
+    height: 18.3vh;
+    text-align: center;
+}
+footer .footer-links a {
+    text-decoration: none;
+    color: black;
+}
+footer i p a {
+    color: black;
 }
